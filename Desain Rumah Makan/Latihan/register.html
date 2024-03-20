@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/register-page.css" />
+  <title>Register</title>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="top-header">
+    <div class="logo">
+      <h1> <img
+        src="ziyada.jpg.jpg"
+        alt="Ziyada_logo"
+       width="100px"></h1>
+    </div>
+  </div>
+
+  <!-- navbar -->
+  <nav>
+    <div class="nav-menu">
+        <ul>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+    
+        <div class="nav-register-login">
+          <ul>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+      <!-- Content -->
+      <div class="content-row">
+        <div class="content1">
+          <h1>Register</h1>
+          <!-- Text box (ID,Nama)-->
+          <form id="survey-form">
+            <div id="p" class="id">
+              <label for="id" id="name-label">ID </label>
+              <input type="text" id="id" name="id" placeholder="Masukan ID anda" required />
+            </div>
+            <br>
+            <div id="p" class="email">
+                <label for="email" id="email-label">Nama </label>
+                <input type="email" id="email" name="nama" placeholder="Masukan nama anda" required />
+              </div>
+            <br>
+              <!-- Radio button (JK) -->
+              <div id="p" class="jenis-kelamin">
+                <label>JK </label>
+                <input type="radio" name="gender" value="Laki-laki" id="gender" /> Laki-laki</label>
+                <input type="radio" name="gender" value="Perempuan" id="gender" /> Perempuan</label>
+              </div>
+            <br>
+              <!-- Select box (Agama) -->
+              <div id="p" class="agama">
+                <label for="dropdown">Agama </label>
+                <select id="dropdown" name="occupation" required>
+                  <option value="" disabled selected>Pilih opsi</option>
+                  <option value="islam">Islam</option>
+                  <option value="kristen">Kristen</option>
+                  <option value="katolik">Katolik</option>
+                  <option value="hindu">Hindu</option>
+                  <option value="budha">Budha</option>
+                  <option value="konghucu">Konghucu</option>
+                </select>
+              </div>
+              <br>
+ <!-- text area (Alamat) -->
+ <div id="p" class="alamat">
+    <label for="alamat "> Alamat </label>
+    <textarea id="alamat" name="alamat" placeholder="Isi Alamat"></textarea>
+  </div>
+<br>
+  <!-- button -->
+  <div class="buttons">
+    <button id="button1">Daftar</button>
+    <button id="button2">Batal</button>
+  </div>
+</form>
+</div>
+<br>
+<!-- column 3 -->
+<div class="content3">
+    <label> Hobi </label>
+
+  </div>
+
+  <div class="content2">
+
+    <form>
+      <!-- hobi -->
+      <label><input type="checkbox" name="hobby" value="reading" /> Membaca</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="sports" /> Bernyanyi</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="music" /> Olahraga</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="mancing" /> Memasak</label>
+      <br>
+      <label><input type="checkbox" name="hobby" value="otomotif" /> Melukis</label>
+      <br>
+      <label><input type="text" name="hobby" id="input-text-c2" placeholder="Lainnya" /></label>
+    </form>
+  </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="footer-content">
+      <p>Hak Cipta &copy; 2024 Maria Nathasya Desfera Pangestu.</p>
+    </div>
+  </footer>
+</body>
+</html>
